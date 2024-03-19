@@ -15,3 +15,10 @@ export async function PUT() {
 export async function DELETE() {
     return NextResponse.json({ message: "Contest DELETE" });
 }
+
+// Fake db
+var contests = [
+    { id: 1, name: "Eurovision" },
+    { id: 2, name: "Idol" },
+    { id: 3, name: "The Voice" }
+]
